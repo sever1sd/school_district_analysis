@@ -14,7 +14,7 @@ Jupyter Notebook and the programming language Python was used to conduct this an
 
 In an effort to maintain academic integrity, 461 math and reading scores were made "null" for 9th graders at Thomas High School. The results were then recalculated to provide the most accurate data for decision making. Side by side comparisons of each are provided in the below analysis. No other data was altered other than the 461 test scores.
 
-### How is the district summary affected?
+### 1. How is the district summary affected?
 
 <ins>Original District Summary
 ![alt text](https://github.com/sever1sd/school_district_analysis/blob/ab5c1c29483ff655b7c1d34223be346ec1b08dff/Resources/Original%20District.png)
@@ -24,7 +24,7 @@ In an effort to maintain academic integrity, 461 math and reading scores were ma
 
 The district summary data did not change much with the removal of the 9th grade test scores. This is due to the fact that the total population of the 9th graders at Thomas High (N = 461) was ~1% of the total population in the dataset (N = 39,170). 
 
-### How is the school summary affected?
+### 2. How is the school summary affected?
 
 <ins>Original Thomas High School Summary
   
@@ -36,7 +36,7 @@ The district summary data did not change much with the removal of the 9th grade 
 
 The high school summary changed dramatically with the removal of 9th grade test scores. The passing math scores dropped from ~93% to ~67% and passing reading scores dropped from ~97% to ~70%. This dramatic change is a result of the passing total calculating off the total population of students in the school. The 461 9th graders are still being accounted for in the total school population, despite their test scores having been removed.
 
-### How does replacing the 9th graders' math and reading scores affect Thomas High School's performance relative to other schools?
+### 3. How does replacing the 9th graders' math and reading scores affect Thomas High School's performance relative to other schools?
 
 In order to better reflect the performance of students in both math and reading at Thomas High School, their percentage passing was recalculated to exclude the 461 9th graders with null values. This resulted in Thomas High Schools' passing scores for reading and math only changing marginally and thus they kept their position as the second highest overall passing rate among the 15 schools evaluated.
 
@@ -49,7 +49,7 @@ In order to better reflect the performance of students in both math and reading 
 ![alt text](https://github.com/sever1sd/school_district_analysis/blob/40a2248f8412abf8b783121cb84fd80ad5df56fd/Resources/Updated_Top%205.png)
 
 
-### How does replacing the 9th grade scores affect:
+### 4. How does replacing the 9th grade scores affect:
 
 **Math and Reading Scores by Grade**
 
